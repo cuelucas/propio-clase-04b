@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-
+clase correspondiente al siguiente <a href="https://www.youtube.com/watch?v=9AGRf90bqYA">video</a>. continuar en 1:03hs
 <h1>The label element</h1>
 
 <p>Click on one of the text labels to toggle the related radio button:</p>
@@ -28,6 +28,20 @@
   <input type="text" id="fname" name="fname" value="John"><br>
   <label for="lname">Last name:</label><br>
   <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit"><br><br>
+
+  Turno: <select name="turno" id="selectturno">
+    <option>Mañana</option>
+    <option>Tarde</option>
+    <option>Noche</option>
+</select>
+
+</form> 
+
+<h2>HTML Forms </h2>
+<form action="/action_page.php" target="_blank" method="POST">
+    Consulta: <textarea name="comments" id="comment1" cols="30" rows="10"></textarea>
+    
   <input type="submit" value="Submit">
 </form> 
 
@@ -47,7 +61,7 @@
   <label for="birthday">Birthday:</label>
   <input type="date" id="birthday" name="birthday"><br><br>
   <label for="fusername">username:</label>
-  <input type="text" id="fusername" name="fusername"><br><br>
+  <input type="text" id="fusername" name="fusername" maxlength="20"><br><br>
   <label for="fpwd">password:</label>
   <input type="password" id="fpwd" name="fpwd"><br><br>
   <input type="submit" value="Submit">
